@@ -44,7 +44,7 @@ function showTasks(){
     }
     let newliTag = '';
     listArr.forEach((element, index) => {
-        newliTag += `<li>${element}<span onclick=deleteTask(); ><i class="fas fa-trash"></i></span></li>`;
+        newliTag += `<li>${element}<span onclick=deleteTask(); ><i class="fa fa-trash"></i></span></li>`;
     });
     todoList.innerHTML = newliTag;
     inputBox.value = "";
